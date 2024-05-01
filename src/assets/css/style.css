@@ -6799,7 +6799,7 @@ ul{
 	margin-bottom: 10px;
 }
 .footer_post_section .footer_post_slide > .blog_links > p{
-	color: #222222; 
+	color: #fff; 
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 600;
 }
@@ -6823,7 +6823,7 @@ ul{
     float: right;
 }
 .index_v6 .clv_footer_wrapper .footer_block .useful_links > li > a{
-	color: #222222;
+	color: #fff;
 }
 .index_v6 .clv_footer_wrapper .footer_block .useful_links > li{
 	margin-bottom: 10px;
@@ -6839,7 +6839,7 @@ ul{
   background: var(--base-color);
 }
 .index_v6 .clv_footer_wrapper .footer_block .footer_heading > h4{
-	color: #222222;
+	color: #fff;
     font-weight: 600;
 }
 .index_v6 .footer_post_section .footer_post_slide > .blog_links > a{
@@ -6847,7 +6847,7 @@ ul{
 	font-family: 'Source Sans Pro', sans-serif;
 }
 .index_v6 .footer_post_section .footer_post_slide > span{
-	color: #222222;
+	color: #fff;
 }
 /*Coffee Footer End*/
 /*Coffee Copyright Start*/
