@@ -14,6 +14,7 @@ import { SigaraComponent } from './components/bagimliliklar/sigara/sigara.compon
 import { MaddeComponent } from './components/bagimliliklar/madde/madde.component';
 import { TeknolojiComponent } from './components/bagimliliklar/teknoloji/teknoloji.component';
 import { FastFoodComponent } from './components/bagimliliklar/fast-food/fast-food.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { FastFoodComponent } from './components/bagimliliklar/fast-food/fast-foo
     SigaraComponent,
     MaddeComponent,
     TeknolojiComponent,
-    FastFoodComponent
+    FastFoodComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
