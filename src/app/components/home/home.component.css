@@ -1,0 +1,26 @@
+.clv_banner_slider {
+    position: relative;
+    overflow: hidden;
+}
+
+.clv_banner_slider video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    transform: scale(1.1);
+}
+
+.dairy_team_slider .team_slide {
+    height: 360px;
+}
+.dairy_team_slider .team_slide .team_image {
+    width: 100%;
+    height: 100%;
+}	
+.dairy_team_slider .team_slide .team_image > img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}

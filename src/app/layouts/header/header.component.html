@@ -1,0 +1,59 @@
+<div [ngClass]="{'header_wrapper': routingService.isUrl, 'header4_wrapper': !routingService.isUrl}">
+			<div class="container">
+				<div [ngClass]="{'clv_header': routingService.isUrl, 'clv_header4': !routingService.isUrl}">
+					<div class="row w-100 justify-content-between align-items-center">
+						<div class="col-lg-2 col-md-2 col-10">
+							<div class="clv_left_header">
+								<div class="clv_logo" style="display: flex;align-items: center;">
+									<a routerLink="/"><img src="assets/logo.png" width="45px" alt="Cultivation" /></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-10 col-md-10 col-2">
+							<div class="clv_right_header">
+								<div class="clv_menu">
+									<div class="clv_menu_nav">
+										<ul>
+											<li>
+												<a routerLink="/">Ana Sayfa</a>
+											</li>
+											<li>
+												<a routerLink="/bagimliliklar">Bağımlılıklar</a>
+												<ul>
+													<li><a routerLink="/alkol">Alkol Bağımlılığı</a></li>
+													<li><a routerLink="/sigara">Sigara Bağımlılığı</a></li>
+													<li><a routerLink="/madde">Madde Bağımlılığı</a></li>
+													<li><a routerLink="/teknoloji">Teknoloji Bağımlılığı</a></li>
+													<li><a routerLink="/fast-food">Fast Food Bağımlılığı</a></li>
+												</ul>
+											</li>
+											<li><a routerLink="/hakkimizda">Hakkımızda</a></li>
+											<li><a href="https://turktelekomatl.meb.k12.tr/" target="_blank">Okulumuz</a></li>
+										</ul>
+									</div>
+									<div class="cart_nav">
+										<ul>
+											<li class="menu_toggle">
+												<span>
+													
+													<svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+														 viewBox="0 0 53 53" style="enable-background:new 0 0 53 53;" xml:space="preserve" width="20px" height="20px">
+													<g>
+														<g>
+															<path d="M2,13.5h49c1.104,0,2-0.896,2-2s-0.896-2-2-2H2c-1.104,0-2,0.896-2,2S0.896,13.5,2,13.5z"/>
+															<path d="M2,28.5h49c1.104,0,2-0.896,2-2s-0.896-2-2-2H2c-1.104,0-2,0.896-2,2S0.896,28.5,2,28.5z"/>
+															<path d="M2,43.5h49c1.104,0,2-0.896,2-2s-0.896-2-2-2H2c-1.104,0-2,0.896-2,2S0.896,43.5,2,43.5z"/>
+														</g>
+													</g>
+													</svg>
+												</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>

@@ -1,0 +1,9 @@
+.about_img {
+    height: 580px;
+}
+
+.about_img  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
