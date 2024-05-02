@@ -1,0 +1,17 @@
+.clv_features_wrapper .feature_block {
+    padding: 0;
+    overflow: hidden;
+}
+
+.clv_features_wrapper .feature_block .feature_img {
+    height: 250px;
+}
+
+.clv_features_wrapper .feature_block .feature_img iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.clv_features_wrapper .feature_block  .information {
+    padding-bottom: 14px;
+}

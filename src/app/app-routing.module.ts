@@ -9,6 +9,7 @@ import { MaddeComponent } from './components/bagimliliklar/madde/madde.component
 import { TeknolojiComponent } from './components/bagimliliklar/teknoloji/teknoloji.component';
 import { FastFoodComponent } from './components/bagimliliklar/fast-food/fast-food.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
+import { PublicSpotlightComponent } from './components/public-spotlight/public-spotlight.component';
 
 const routes: Routes = [
   { path: "", component: HomeComponent, pathMatch: "full" },
@@ -19,6 +20,7 @@ const routes: Routes = [
   { path: "madde", component: MaddeComponent },
   { path: "teknoloji", component: TeknolojiComponent },
   { path: "fast-food", component: FastFoodComponent },
+  { path: "kamu-spotu", component: PublicSpotlightComponent },
 
   { path: "**", component: NotFoundComponent }
 ];

@@ -61,9 +61,9 @@ Purchase:
 	padding: 0;
 	margin: 0;
 	font-family: 'Lato', sans-serif;
-	color: #757575;
-	font-size:15px;
-	line-height:1.5;
+	color: #000000;
+	font-size:16px;
+	line-height:24px;
 	font-weight: 400;
 	overflow-x: hidden;
 }
@@ -75,7 +75,7 @@ Purchase:
 a, a:hover, a:focus{
 	text-decoration: none;
 	cursor:pointer;
-	color: #757575;
+	color: #000000;
 	outline: none;
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
@@ -6087,9 +6087,10 @@ ul{
 /*Coffee Header End*/
 /*Coffee Banner Start*/
 .index_v6 .clv_banner_slider .clv_slide{
-	background: url('../images/index6_slider_bg1.jpg') no-repeat center;
+	background: url('../images/new/bagimlilik2.jpg') no-repeat center;
 	background-size: cover;
 	padding: 236px 0px 96px;
+	background-attachment: fixed;
 }
 .index_v6 .clv_banner_slider .clv_slide.slide2{
 	background: url('../images/index6_slider_bg2.jpg') no-repeat center;
@@ -6124,7 +6125,7 @@ ul{
 	left: 0;
 }
 .index_v6 .clv_banner_slider .clv_slide .clv_slide_inner h1{
-	font-size: 72px;
+	font-size: 70px;
 	color: var(--base-color);
 }
 .index_v6 .clv_banner_slider .clv_slide .clv_slide_inner p{
@@ -6695,7 +6696,7 @@ ul{
 }
 .index_v6 .partner_slider .partner_slide .partner_image{
 	background-color: transparent;
-	height: 140px;
+	height: 215px;
 	padding: 0;
 	border-radius: 6px;
 	overflow: hidden;
@@ -6723,7 +6724,7 @@ ul{
 	background-color: #505158;
 }
 .index_v6 .clv_partner_wrapper .partner_slider .slider_arrow:hover{
-	background-color: #ffc539;
+	background-color: var(--base-color);
 }
 .index_v6 .clv_partner_wrapper .partner_slider .slider_arrow svg path{
 	fill: #ffffff;

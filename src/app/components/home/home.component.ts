@@ -27,8 +27,8 @@ export class HomeComponent implements OnInit {
         disableOnInteraction: true,
       },
       navigation: {
-        nextEl: ".right_arrow",
-        prevEl: ".left_arrow",
+        nextEl: ".right1",
+        prevEl: ".left1",
       },
       pagination: {
         el: ".swiper-pagination",
@@ -50,32 +50,33 @@ export class HomeComponent implements OnInit {
       }
     });
 
-    var swiper = new Swiper(".swiper-yesilayvideo", {
+    var swiper = new Swiper(".yesilayvideo", {
       slidesPerView: 1,
       spaceBetween: 8,
+      loop: true,
       autoplay: {
-        delay: 8000,
+        delay: 9000,
         disableOnInteraction: true,
+      },
+      navigation: {
+        nextEl: ".right2",
+        prevEl: ".left2",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
       },
       breakpoints: {
         0: {
-          slidesPerView: 2,
-          spaceBetween: 8,
+          slidesPerView: 1,
+          spaceBetween: 12,
         },
-        300: {
+        500: {
           slidesPerView: 2,
-          spaceBetween: 8,
+          spaceBetween: 12,
         },
-        400: {
+        999: {
           slidesPerView: 3,
-          spaceBetween: 10,
-        },
-        580: {
-          slidesPerView: 4,
-          spaceBetween: 10,
-        },
-        875: {
-          slidesPerView: 5,
           spaceBetween: 12,
         },
       }

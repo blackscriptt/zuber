@@ -15,6 +15,7 @@ import { MaddeComponent } from './components/bagimliliklar/madde/madde.component
 import { TeknolojiComponent } from './components/bagimliliklar/teknoloji/teknoloji.component';
 import { FastFoodComponent } from './components/bagimliliklar/fast-food/fast-food.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
+import { PublicSpotlightComponent } from './components/public-spotlight/public-spotlight.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
     MaddeComponent,
     TeknolojiComponent,
     FastFoodComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    PublicSpotlightComponent
   ],
   imports: [
     BrowserModule,
