@@ -9720,14 +9720,14 @@ body.style-eight .clv_right_header .clv_menu .cart_nav > ul > li > a > svg > pat
 	}
 	.clv_right_header .clv_menu .clv_menu_nav {
 		position: fixed;
-		left: 0;
+		right: 0;
 		top: 0;
 		bottom: 0;
 		background-color: var(--base-color);
 		flex-direction: column;
 		border-radius: 0;
 		width: 250px;
-		transform: translateX(-260px);
+		transform: translateX(260px);
 		overflow-y: auto;
 		overflow-x: hidden;
 		padding: 0 10px;
@@ -10446,7 +10446,11 @@ body.style-eight .clv_right_header .clv_menu .cart_nav > ul > li > a > svg > pat
 		font-size: 32px;
 	}
 	.index_v6 .clv_banner_slider .clv_slide .clv_slide_inner h1{
-		font-size: 52px;
+		font-size: 38px;
+		line-height: 47px;
+	}
+	.index_v6 .clv_banner_slider .clv_slide .clv_slide_inner p {
+		line-height: 27px;
 	}
 	.dairy_team_slider .swiper-slide{
 		text-align: center;

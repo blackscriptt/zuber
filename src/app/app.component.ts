@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+declare var $: any;
 
 @Component({
   selector: 'app-root',
@@ -12,7 +13,18 @@ export class AppComponent implements OnInit {
  
 
   ngOnInit(): void {
-    
+    $(document).ready(function () {
+      $("#up").click(function () {
+        $("html, body").animate({ scrollTop: 0 }, 350);
+      });
+    });
+
+    eval(`
+      AOS.init({
+          offset: 320,
+          once: true
+      })`);
+   
   }
 
 }

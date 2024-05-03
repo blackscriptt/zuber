@@ -15,7 +15,6 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
 
     this.routingService.getUrl();
-   
 
     eval(`
     var swiper = new Swiper(".swiper-blog", {

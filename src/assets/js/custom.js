@@ -945,12 +945,19 @@ $(document).ready(function(){
 	});
 	$(document).on('click', function(){
 		$('.clv_right_header .clv_menu .clv_menu_nav').removeClass('nav_toggle');
+		$('#up').removeClass('nav_toggle');
 	});
 	$('.clv_right_header .clv_menu .clv_menu_nav').on('click', function(e){
 		e.stopPropagation();
 	});
 	$('.menu_toggle').on('click', function(e){
 		$('.clv_right_header .clv_menu .clv_menu_nav').toggleClass('nav_toggle');
+		$('#up').toggleClass('nav_toggle');
+		e.stopPropagation();
+	});
+	$('.clv_right_header .clv_menu .clv_menu_nav li a').on('click', function(e){
+		$('.clv_right_header .clv_menu .clv_menu_nav').removeClass('nav_toggle');
+		$('#up').removeClass('nav_toggle');
 		e.stopPropagation();
 	});
 	if($(window).width()<= 991){
